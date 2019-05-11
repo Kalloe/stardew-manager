@@ -1,0 +1,36 @@
+{
+  "links": [
+    {
+      "title": "Schedule",
+      "id": "1"
+    },
+    {
+      "title": "Villagers",
+      "id": "2"
+    },
+    {
+      "title": "Bundles",
+      "id": "3"
+    },
+    {
+      "title": "Buildings",
+      "id": "4"
+    },
+    {
+      "title": "Crafting",
+      "id": "5"
+    },
+    {
+      "title": "Cooking",
+      "id": "6"
+    },
+    {
+      "title": "Mines",
+      "id": "7"
+    },
+    {
+      "title": "Museum",
+      "id": "8"
+    }
+  ]
+}
