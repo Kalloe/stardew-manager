@@ -1,11 +1,16 @@
 import React from 'react';
 import HomeNav from './home/HomeNav';
+import {createStackNavigator, createAppContainer} from 'react-navigation';
+import Villagers from "./villagers/Villagers";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <HomeNav/>
-    );
-  }
-}
+const HomeNavigator = createStackNavigator({
+        Home: {screen: HomeNav},
+        Villagers: {screen: Villagers}
+    },
+    {
+        initialRouteName: 'Home'
+    });
 
+const App = createAppContainer(HomeNavigator);
+
+export default App;

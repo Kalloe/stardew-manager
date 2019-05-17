@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, TouchableHighlight, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 
 const styles = StyleSheet.create({
@@ -25,12 +25,12 @@ const styles = StyleSheet.create({
     }
 });
 
-export default function LinkCard({ link }) {
+export default function LinkCard({ link, navigate }) {
     return(
         <View style={styles.card}>
-            <View style={styles.cardHeader}>
+            <TouchableHighlight onPress={() => navigate.navigate(link.title)} style={styles.cardHeader}>
                 <Text style={styles.title}>{link.title}</Text>
-            </View>
+            </TouchableHighlight>
         </View>
     )
 }

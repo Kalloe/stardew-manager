@@ -11,7 +11,15 @@ const styles = StyleSheet.create({
     }
 });
 
-class HomeNav extends Component {
+class HomeNav extends React.Component {
+    static navigationOptions = {
+        title: 'Stardew Valley Manager',
+        headerStyle: {
+            backgroundColor: '#0460f4'
+        },
+        headerTintColor: '#d1ba0e'
+    };
+
     state = {
         links: []
     };
@@ -25,7 +33,7 @@ class HomeNav extends Component {
             <FlatList
                 style={styles.list}
                 data={this.state.links}
-                renderItem={({item}) => <LinkCard link={item}/>}
+                renderItem={({item}) => <LinkCard navigate={this.props.navigation} link={item}/>}
                 keyExtractor={item => item.id}
             />
         )
