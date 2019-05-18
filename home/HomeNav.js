@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     }
 });
 
-class HomeNav extends React.Component {
+class HomeNav extends Component {
     static navigationOptions = {
         title: 'Stardew Valley Manager',
         headerStyle: {

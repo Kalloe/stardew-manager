@@ -2,34 +2,42 @@
   "links": [
     {
       "title": "Schedule",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
       "id": "1"
     },
     {
       "title": "Villagers",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/6/63/Abigail_Icon.png",
       "id": "2"
     },
     {
       "title": "Bundles",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/3/3f/Bundle_Red.png/32px-Bundle_Red.png",
       "id": "3"
     },
     {
       "title": "Buildings",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/5/5d/House_%28tier_2%29.png/32px-House_%28tier_2%29.png",
       "id": "4"
     },
     {
       "title": "Crafting",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/1/1b/Field_Snack.png/32px-Field_Snack.png",
       "id": "5"
     },
     {
       "title": "Cooking",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/1/1d/Cooking_Icon.png",
       "id": "6"
     },
     {
       "title": "Mines",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/8/84/The_Mines_Icon.png",
       "id": "7"
     },
     {
       "title": "Museum",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/d/d1/Arrowhead.png/32px-Arrowhead.png",
       "id": "8"
     }
   ]

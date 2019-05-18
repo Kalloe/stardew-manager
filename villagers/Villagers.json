@@ -1,0 +1,34 @@
+{
+  "villagers": [
+    {
+      "name": "Alex",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "1"
+    },
+    {
+      "name": "Elliott",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "2"
+    },
+    {
+      "name": "Harvey",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "3"
+    },
+    {
+      "name": "Sam",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "4"
+    },
+    {
+      "name": "Sebastian",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "5"
+    },
+    {
+      "name": "Shane",
+      "image": "https://stardewvalleywiki.com//mediawiki/images/thumb/7/70/Time_Icon.png/30px-Time_Icon.png",
+      "id": "6"
+    }
+  ]
+}
