@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "braces": "^3.0.2",
-    "expo": "^32.0.0",
+    "expo": "^46.0.14",
     "lodash": "^4.17.15",
     "mem": "^5.1.1",
     "prop-types": "latest",
